@@ -1,7 +1,6 @@
 import { Album } from './album.model'
 
 export const ALBUMS: Album[] = [
-
   new Album({title: "Pulse", artist: "Pink Floyd",
   description: "A live  album by the English progressive rock band originally released in 1995, on the label EMI in the United Kingdom.", id: 1}),
   new Album({title: "Funhouse", artist:"The Stooges",
@@ -15,4 +14,4 @@ export const ALBUMS: Album[] = [
   new Album({title:"Axis Bold As Love", artist:"The Jimi Hendrix Experience",
   description:"Second studio album by the English-American band, released in 1967.", id:6})
 
-]
+];
